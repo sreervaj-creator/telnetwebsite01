@@ -1,1 +1,6 @@
-
+<img src="images/lan.jpg">
+<img src="images/fiber.jpg">
+<img src="images/cctv.jpg">
+<img src="images/wifi.jpg">
+<img src="images/server.jpg">
+<img src="images/infrastructure.jpg">
