@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEL NET SOLUTION</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="logo">
+    <div class="logo-box"></div>
+    <span>TEL NET <span class="blue">SOLUTION</span></span>
+  </div>
+
+  <div class="desktop-nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+    <button class="cta-primary">Get a Quote</button>
+  </div>
+
+  <button id="menuBtn">☰</button>
+</nav>
+
+<div id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section class="hero" id="hero">
+  <div class="grid-bg"></div>
+  <div class="accent"></div>
+
+  <span class="section-label fade">Enterprise Network Solutions · Since 2010</span>
+
+  <div class="hero-line"></div>
+
+  <h1 class="hero-title fade">
+    Reliable Networking<br>
+    Solutions for <em>Modern</em><br>
+    Businesses
+  </h1>
+
+  <p class="hero-text fade">
+    From fiber optic cabling to enterprise surveillance and server infrastructure — TEL NET SOLUTION builds the network your business depends on.
+  </p>
+
+  <div class="hero-buttons fade">
+    <button class="cta-primary">Start Your Project</button>
+    <button class="cta-outline">View Services</button>
+  </div>
+
+  <div class="stats fade">
+    <div><h3>500+</h3><p>Projects Delivered</p></div>
+    <div><h3>99.9%</h3><p>Client Satisfaction</p></div>
+    <div><h3>14+</h3><p>Years Experience</p></div>
+    <div><h3>50+</h3><p>Enterprise Clients</p></div>
+  </div>
+</section>
+
+<section class="about fade" id="about">
+  <div class="two-col">
+    <div>
+      <span class="section-label">About Us</span>
+      <h2>Engineering the backbone of modern enterprise</h2>
+      <p>
+      Founded in 2010, TEL NET SOLUTION has grown from a regional cabling contractor into one of the most trusted IT infrastructure partners for enterprises across India.
+      </p>
+      <button class="cta-primary">Work With Us</button>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card"><span>🎓</span><h4>Certified Engineers</h4></div>
+      <div class="feature-card"><span>🗺</span><h4>Nationwide Coverage</h4></div>
+      <div class="feature-card"><span>⚡</span><h4>Rapid Deployment</h4></div>
+      <div class="feature-card"><span>🛡</span><h4>SLA Guaranteed</h4></div>
+    </div>
+  </div>
+</section>
+
+<section class="services fade" id="services">
+  <span class="section-label center">Core Services</span>
+  <h2 class="center">What we build for you</h2>
+
+  <div class="service-grid">
+    <div class="service-card"><span>🔗</span><h3>LAN Networking</h3><p>Enterprise network deployment.</p></div>
+    <div class="service-card"><span>⚡</span><h3>Fiber Optics</h3><p>High speed fiber infrastructure.</p></div>
+    <div class="service-card"><span>📷</span><h3>CCTV Systems</h3><p>Advanced IP surveillance systems.</p></div>
+    <div class="service-card"><span>📡</span><h3>Wireless Solutions</h3><p>Enterprise WiFi infrastructure.</p></div>
+    <div class="service-card"><span>🖥</span><h3>Server Management</h3><p>24/7 server monitoring.</p></div>
+    <div class="service-card"><span>🏗</span><h3>IT Infrastructure</h3><p>Complete enterprise buildouts.</p></div>
+  </div>
+</section>
+
+<section class="projects fade" id="projects">
+  <span class="section-label">Featured Projects</span>
+  <h2>Work that speaks for itself</h2>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-top">
+        <h3>Corporate HQ Network</h3>
+      </div>
+      <div class="project-bottom">8-floor structured cabling + fiber backbone</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-top">
+        <h3>Campus Surveillance Grid</h3>
+      </div>
+      <div class="project-bottom">400+ IP cameras, centralized NOC</div>
+    </div>
+  </div>
+</section>
+
+<section class="process fade" id="process">
+  <span class="section-label">Our Process</span>
+  <h2>Precision at every step</h2>
+
+  <div class="steps">
+    <div class="step"><span>01</span><div><h3>Consultation</h3><p>Requirements gathering and planning.</p></div></div>
+    <div class="step"><span>02</span><div><h3>Planning</h3><p>Engineering and blueprint design.</p></div></div>
+    <div class="step"><span>03</span><div><h3>Installation</h3><p>Professional deployment process.</p></div></div>
+    <div class="step"><span>04</span><div><h3>Testing</h3><p>Validation and optimization.</p></div></div>
+  </div>
+</section>
+
+<section class="contact fade" id="contact">
+  <span class="section-label center">Get in Touch</span>
+  <h2 class="center">Let's build your network</h2>
+
+  <div class="contact-grid">
+    <form id="contactForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Company Name">
+      <textarea placeholder="Tell us about your project"></textarea>
+      <button class="cta-primary" type="submit">Send Message</button>
+      <p id="success"></p>
+    </form>
+
+    <div class="contact-info">
+      <h3>Direct Contact</h3>
+      <p>📞 +91 98765 43210</p>
+      <p>✉️ info@telnetsolution.in</p>
+      <p>📍 Hyderabad, India</p>
+
+      <a class="whatsapp-btn" href="https://wa.me/919876543210">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>TEL NET SOLUTION</h3>
+  <p>Enterprise networking infrastructure and IT solutions since 2010.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
