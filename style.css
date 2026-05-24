@@ -348,9 +348,10 @@ background:#f7f9fc;
 
 .contact-grid{
 display:grid;
-grid-template-columns:1fr 1fr;
-gap:80px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
 margin-top:60px;
+width:100%;
 }
 
 form{
@@ -455,4 +456,24 @@ grid-template-columns:1fr;
 .hero{
 padding-top:140px;
 }
+}
+
+body{
+overflow-x:hidden;
+}
+
+*{
+max-width:100%;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+.contact-grid,
+.two-col,
+.project-grid,
+.service-grid{
+overflow:hidden;
 }
