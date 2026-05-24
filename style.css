@@ -253,6 +253,19 @@ object-fit:cover;
 display:block;
 }
 
+.service-card{
+display:flex;
+flex-direction:column;
+height:100%;
+}
+
+.service-content{
+flex:1;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+}
+
 .service-content{
 padding:28px;
 }
