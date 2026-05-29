@@ -79,11 +79,11 @@ gap:10px;
 font-weight:700;
 }
 
-.logo-box{
-width:32px;
-height:32px;
-background:#0a1628;
-border-radius:4px;
+.logo-img{
+width:45px;
+height:45px;
+object-fit:cover;
+border-radius:8px;
 }
 
 .blue{
