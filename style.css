@@ -380,21 +380,22 @@ background:white;
 padding:40px;
 }
 
-.whatsapp-btn{
-display:inline-block;
-margin-top:20px;
-background:#25D366;
-padding:14px 28px;
-color:white;
-text-decoration:none;
-font-weight:700;
-}
-
 .whatsapp-container{
 display:flex;
 flex-direction:column;
 gap:15px;
 margin-top:25px;
+}
+
+.whatsapp-btn{
+display:inline-block;
+width:fit-content;
+background:#25D366;
+padding:14px 28px;
+color:white;
+text-decoration:none;
+font-weight:700;
+border-radius:6px;
 }
 
 .secondary{
