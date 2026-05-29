@@ -390,6 +390,17 @@ text-decoration:none;
 font-weight:700;
 }
 
+.whatsapp-container{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:25px;
+}
+
+.secondary{
+margin-left:40px;
+}
+
 footer{
 background:#060d1a;
 color:white;
